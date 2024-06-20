@@ -1,0 +1,12 @@
+langchain-community
+langchain
+duckduckgo-search
+gradio
+langchain-core
+crewai 
+unstructured 
+pyowm 
+tools 
+python-dotenv 
+langchain-google-genai 
+gradio

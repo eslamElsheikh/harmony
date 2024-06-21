@@ -42,23 +42,21 @@ CopySend a POST request to `/generate_treatment_plan` with JSON payload:
   "mental_illness": "depression",
   "note": "Experiences frequent mood swings"
 }
+```
+## Usage
 
-## UI
+### UI
 Run the Gradio interface:
-Copypython main.py
-Access the UI through the provided local URL.
-Project Structure
+python main.py
+CopyAccess the UI through the provided local URL.
 
-agents.py: Defines AI agents (TreatmentPlanSupervisor, FitnessExpert, Nutritionist, etc.)
-api.py: Flask API for generating treatment plans
-create_treatment_plan.py: Core logic for creating treatment plans
-main.py: Gradio UI implementation
-tasks.py: Defines tasks for each aspect of the treatment plan
+## Project Structure
+- `agents.py`: Defines AI agents (TreatmentPlanSupervisor, FitnessExpert, Nutritionist, etc.)
+- `api.py`: Flask API for generating treatment plans
+- `create_treatment_plan.py`: Core logic for creating treatment plans
+- `main.py`: Gradio UI implementation
+- `tasks.py`: Defines tasks for each aspect of the treatment plan
 
-Contributing
-Contributions are welcome. Please fork the repository and submit pull requests for any enhancements.
-License
-[Insert chosen license here]
-Disclaimer
-This tool is for informational purposes only and should not replace professional medical advice. Always consult with a qualified healthcare provider for personalized medical guidance.
+## Disclaimer
+This tool is for informational purposes only and should not replace professional medical advice. A
 

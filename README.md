@@ -42,7 +42,8 @@ CopySend a POST request to `/generate_treatment_plan` with JSON payload:
   "mental_illness": "depression",
   "note": "Experiences frequent mood swings"
 }
-UI
+
+## UI
 Run the Gradio interface:
 Copypython main.py
 Access the UI through the provided local URL.
@@ -60,3 +61,4 @@ License
 [Insert chosen license here]
 Disclaimer
 This tool is for informational purposes only and should not replace professional medical advice. Always consult with a qualified healthcare provider for personalized medical guidance.
+

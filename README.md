@@ -25,7 +25,7 @@ This project is a comprehensive Mental Health Treatment Plan Generator that crea
 1. Clone the repository
 2. Install dependencies:
 pip install -r requirements.txt
-Copy3. Set up environment variables:
+Set up environment variables:
 - Create a `.env` file
 - Add your Google API key: `GEMINI_API_KEY=your_api_key_here`
 
@@ -33,7 +33,7 @@ Copy3. Set up environment variables:
 ### API
 Run the Flask server:
 python api.py
-CopySend a POST request to `/generate_treatment_plan` with JSON payload:
+Send a POST request to `/generate_treatment_plan` with JSON payload:
 ```json
 {
   "age": 30,
@@ -48,7 +48,7 @@ CopySend a POST request to `/generate_treatment_plan` with JSON payload:
 ### UI
 Run the Gradio interface:
 python main.py
-CopyAccess the UI through the provided local URL.
+Access the UI through the provided local URL.
 
 ## Project Structure
 - `agents.py`: Defines AI agents (TreatmentPlanSupervisor, FitnessExpert, Nutritionist, etc.)
@@ -58,5 +58,5 @@ CopyAccess the UI through the provided local URL.
 - `tasks.py`: Defines tasks for each aspect of the treatment plan
 
 ## Disclaimer
-This tool is for informational purposes only and should not replace professional medical advice. A
+This tool is for informational purposes only and should not replace professional medical advice.
 
